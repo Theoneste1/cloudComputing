@@ -1,0 +1,112 @@
+
+h2 {
+  color: blue;
+  text-align: center;
+  margin-top: 10px;
+}
+
+form {
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.label{
+	
+	width: 50%;
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: Sans-Serif;
+}
+
+.bookStore{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	background: powderblue;
+	width: 70%;
+	box-shadow: 2px 2px 2px 10px chocolate;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid black;
+	overflow: hidden;
+
+}
+
+input {
+	width: 200px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.addbtn{
+	background-color: green;
+	color: white;
+	height: 25px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.table{
+	margin-top: 20px;
+	background-color: rgb(238, 247, 238);
+	overflow: hidden;
+}
+table, th, td {
+	border: 1px solid black;
+	padding: 0px;
+	margin-left: 0px;
+	margin-top: -100px;
+}
+
+th {
+	width: 100%;
+	font-size: 15px;
+	color:black;
+	font-weight: 700;
+	font-family: Arial;
+	color: #004d00;
+}
+
+td {
+	font-size: 15px;
+	color: black;
+	font-weight: 400;
+	font-family: Georgia;
+}
+
+button{
+	margin-top: 20px;
+	width: 50px;
+}
+
+@media screen and (max-width:800px) {
+	h2 {
+		
+		text-align: center;
+		margin-top: 5px;
+		font-size: 10px;
+	}
+  }
+
+  @media screen and (max-height:560px) {
+	.table{
+		height: 300px;
+		background-color: goldenrod;
+		overflow: hidden;
+		background-color: rgb(238, 247, 238);
+	}
+
+	.form{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		position: fixed; 
+
+	}
+  }
